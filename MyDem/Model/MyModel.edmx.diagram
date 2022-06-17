@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="150f58fc715444818937d6bb41e4a1b4" Name="Diagram1">
+        <EntityTypeShape EntityType="library_dbModel.Book" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="library_dbModel.Booking" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="library_dbModel.Employee" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="library_dbModel.Reader" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="library_dbModel.Role" Width="1.5" PointX="3.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="library_dbModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="library_dbModel.User" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="library_dbModel.FK_Booking_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="library_dbModel.FK_Booking_Reader" ManuallyRouted="false" />
+        <AssociationConnector Association="library_dbModel.FK_User_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="library_dbModel.FK_User_Reader" ManuallyRouted="false" />
+        <AssociationConnector Association="library_dbModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
